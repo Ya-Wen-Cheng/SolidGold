@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>商品查詢</title>
+  <script defer src="js/products.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-yellow-50 text-gray-800 font-sans p-4">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-2xl font-bold mb-4">📦 商品查詢</h1>
+
+    <!-- 分類卡片區 -->
+    <div id="category-cards" class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6"></div>
+
+    <!-- 商品搜尋與清單區 -->
+    <div id="product-section" class="hidden">
+      <div class="flex items-center mb-4">
+        <button id="back-to-categories" class="text-blue-600 hover:underline mr-4">← 返回分類</button>
+        <h2 id="category-title" class="text-xl font-semibold"></h2>
+      </div>
+      <input type="text" id="product-search" placeholder="搜尋商品名稱或編號..." class="mb-4 p-2 border w-full rounded">
+      <ul id="product-list" class="space-y-2"></ul>
+    </div>
+  </div>
+</body>
+</html>

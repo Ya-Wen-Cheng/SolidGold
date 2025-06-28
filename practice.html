@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>練習模式</title>
+  <script defer src="js/practice.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-yellow-50 text-gray-800 font-sans p-4">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-2xl font-bold mb-4">🎯 練習模式</h1>
+
+    <!-- 控制區 -->
+    <div class="mb-4 space-x-2">
+      <button id="generate-btn" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">產生訂單</button>
+      <button id="show-all-btn" class="bg-gray-300 hover:bg-gray-400 text-black px-4 py-2 rounded">顯示整張訂單</button>
+    </div>
+
+    <!-- 練習區 -->
+    <div id="practice-list" class="space-y-4"></div>
+
+    <!-- 回顯與檢查提示 -->
+    <div id="result-message" class="mt-6 text-center text-lg font-semibold"></div>
+  </div>
+</body>
+</html>

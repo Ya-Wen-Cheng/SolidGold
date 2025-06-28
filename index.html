@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>資料查詢工具</title>
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-yellow-50 text-gray-800 font-sans">
+  <div class="min-h-screen flex flex-col items-center justify-center p-4">
+    <h1 class="text-2xl font-bold mb-6">📚 資料查詢工具</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl">
+      <!-- 查詢商品卡片 -->
+      <a href="products.html" class="bg-white rounded-2xl shadow-lg hover:shadow-xl p-6 transition cursor-pointer hover:bg-yellow-100">
+        <h2 class="text-xl font-semibold mb-2">📦 查詢商品</h2>
+        <p class="text-sm text-gray-600">依分類查詢商品編號與品名</p>
+      </a>
+
+      <!-- 練習模式卡片 -->
+      <a href="practice.html" class="bg-white rounded-2xl shadow-lg hover:shadow-xl p-6 transition cursor-pointer hover:bg-yellow-100">
+        <h2 class="text-xl font-semibold mb-2">🎯 練習模式</h2>
+        <p class="text-sm text-gray-600">模擬訂單打單練習，記憶商品編號</p>
+      </a>
+
+      <!-- 查詢客戶卡片 -->
+      <a href="customers.html" class="bg-white rounded-2xl shadow-lg hover:shadow-xl p-6 transition cursor-pointer hover:bg-yellow-100">
+        <h2 class="text-xl font-semibold mb-2">🧾 查詢客戶</h2>
+        <p class="text-sm text-gray-600">依地區查詢客戶清單與編號</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
